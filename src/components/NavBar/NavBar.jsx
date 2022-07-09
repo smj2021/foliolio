@@ -5,7 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 const NavBar = () => {
   return (
     <nav>
-      {/* Using HashLink we are able to create scrollable links that don't function with the standard Link component https://www.npmjs.com/package/react-router-hash-link */}
+      {/* Using HashLink we are able to create scrollable links. The standard Link component doesn't support this. https://www.npmjs.com/package/react-router-hash-link */}
       <HashLink className="title" smooth to="#top">Michael</HashLink>
       <div>
         <HashLink smooth to="#about">About Me</HashLink>
