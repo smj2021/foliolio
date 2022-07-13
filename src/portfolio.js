@@ -79,6 +79,10 @@ const skills = {
   learning: ['AngularJS', 'TypeScript', 'Java 11']
 }
 
+const contact = {
+  email: 'schwartzmjdc@gmail.com',
+}
+
 export {
   header, about, educations, experience, projects, skills, contact
 }
