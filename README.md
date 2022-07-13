@@ -13,3 +13,5 @@
   July 13, 2022: I added a portfolio.js file to hold variables. I did this in order to make the project more modular and easier to edit as information changes. It just looks cleaner.
 
   I also added some more structure to the About.jsx file, icluding importing and destructuring the ABOUT variable so I can access the properties as variables themselves.
+
+  Lastly today, I also added the Contact.jsx since it was among the simplest components to build. I started with a conditional inside the component to return a null value if there is no email address in the portfolio.js file. Additionally, I used a template literal in the <a> href to substitute the correct value in the clickable link.
