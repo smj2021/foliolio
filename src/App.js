@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import NavBar from './components/NavBar/NavBar';
+import About from './components/About/About';
 
 
 // BrowserRouter is necessary in order to use HashLink component for scrolling
@@ -11,6 +12,7 @@ function App() {
     <BrowserRouter>
       <>
         <NavBar />
+        <About />
       </>
     </BrowserRouter>
   );
