@@ -1,5 +1,6 @@
 import React from 'react';
 import { about } from '../../portfolio';
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import './about.css';
 
 const About = () => {
@@ -31,8 +32,17 @@ const About = () => {
               {social.github && (
                 <a href={social.github}
                   aria-label='github'
-                  className='link'>
-                  GitHub
+                  className='link link--icon'
+                >
+                  <BsGithub />
+                </a>
+              )}
+              {social.linkedin && (
+                <a href={social.linkedin}
+                  aria-label='linkedin'
+                  className='link link--icon'
+                >
+                  <BsLinkedin />
                 </a>
               )}
             </>
