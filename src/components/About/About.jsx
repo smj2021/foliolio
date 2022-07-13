@@ -18,7 +18,26 @@ const About = () => {
         {role && <h2 className='about__role'>A {role}.</h2>}
         <p className='about__desc'>{description && description}</p>
 
+        <div>
+          {resume && (
+            <a href={resume}>
+              <span type='button' className='btn'>Resume
+              </span>
+            </a>
+          )}
 
+          {social && (
+            <>
+              {social.github && (
+                <a href={social.github}
+                  aria-label='github'
+                  className='link'>
+                  GitHub
+                </a>
+              )}
+            </>
+          )}
+        </div>
 
       </div>
     </section>
