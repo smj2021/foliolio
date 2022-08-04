@@ -1,9 +1,11 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
+import { projects, skills, contact, educations } from '../../portfolio';
 import './navbar.css';
 
 
 const NavBar = () => {
+  
   return (
     <nav>
       {/* Using HashLink we are able to create scrollable links. The standard Link component doesn't support this. https://www.npmjs.com/package/react-router-hash-link */}
