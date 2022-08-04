@@ -15,3 +15,5 @@
   I also added some more structure to the About.jsx file, icluding importing and destructuring the ABOUT variable so I can access the properties as variables themselves.
 
   Lastly today, I also added the Contact.jsx since it was among the simplest components to build. I started with a conditional inside the component to return a null value if there is no email address in the portfolio.js file. Additionally, I used a template literal in the <a> href to substitute the correct value in the clickable link.
+
+  August 3, 2022: I spent the last few weeks dealing with Covid round two and an assortment of associated issues, so I didn't really get to do much. Today I sat down and added a simple footer and rendered my contact info. 
