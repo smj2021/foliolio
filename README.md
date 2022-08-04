@@ -16,4 +16,6 @@
 
   Lastly today, I also added the Contact.jsx since it was among the simplest components to build. I started with a conditional inside the component to return a null value if there is no email address in the portfolio.js file. Additionally, I used a template literal in the <a> href to substitute the correct value in the clickable link.
 
-  August 3, 2022: I spent the last few weeks dealing with Covid round two and an assortment of associated issues, so I didn't really get to do much. Today I sat down and added a simple footer and rendered my contact info. 
+  August 3, 2022: I spent the last few weeks dealing with Covid round two and an assortment of associated issues, so I didn't really get to do much. Today I sat down and added a simple footer and rendered my contact info. I also added the skills component and destructured the skills object because it holds two keys each with an array as a value. Doing this allowed me to more directly access the nested arrays for mapping.
+
+  I'm going to take some time to think about whether or not I want to use containers for my components to ensure separation of concerns. It's not necessary, but I think it may make things look a little neater throughout the repo when (if?) people come to take a look at this code. 
